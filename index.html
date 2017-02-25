@@ -19,7 +19,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Jacob's Character Sheet</a>
+          <a class="navbar-brand" href="#">Gurk</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -27,12 +27,15 @@
             <li><a href="#about">Equipment</a></li>
             <li><a href="#contact">Magic</a></li>
           </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a>Jacob Z</a></li>
+          </ul>
         </div>
       </div>
     </nav>
 
     <div class="container">
-      <div class="row">
+      <div class="row" >
         <h1 id="character" class="col-lg-6">Gurk</h1>
         <h3 id="player" class="col-lg-6 text-right">Jacob Z</h3>
       </div>
@@ -40,10 +43,11 @@
         <div id="char-race" class="col-lg-2">Race: Orc</div>
         <div id="char-class" class="col-lg-2">Template: Barbarian</div>
       </div>
+      </br>
       <div class="row">
-        <div class="col-lg-3 hp">
-          <div class="col-lg-2">HP</div>
-          <div class="col-lg-10">
+        <div class="col-lg-4 hp">
+          <div class="col-lg-3">HP</div>
+          <div class="col-lg-9">
             <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[hp]">
               <span class="glyphicon glyphicon-minus"></span>
             </button>
@@ -53,9 +57,9 @@
             </button>
           </div>
         </div>
-        <div class="col-lg-3 fp">
-          <div class="col-lg-2">FP</div>
-          <div class="col-lg-10">
+        <div class="col-lg-4 fp">
+          <div class="col-lg-3">FP</div>
+          <div class="col-lg-9">
             <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[fp]">
               <span class="glyphicon glyphicon-minus"></span>
             </button>
@@ -65,10 +69,10 @@
             </button>
           </div>
         </div>
-        <div class="col-lg-3 ppe">
-          <div class="col-lg-2">PPE</div>
-          <div class="col-lg-10">
-            <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[pepe]">
+        <div class="col-lg-4 ppe">
+          <div class="col-lg-3">PPE</div>
+          <div class="col-lg-9">
+            <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[ppe]">
               <span class="glyphicon glyphicon-minus"></span>
             </button>
             <input type="text" name="quant[ppe]" class="form-control input-number" value="1">
@@ -76,6 +80,161 @@
               <span class="glyphicon glyphicon-plus"></span>
             </button>
           </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <table class="table">
+            <tbody>
+              <tr>
+                <th class="attr">ST</th>
+                <td>
+                  <div>
+                    <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[st]">
+                      <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                    <input type="text" name="quant[st]" class="form-control input-number" value="1">
+                    <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[st]">
+                      <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th class="attr">DX</th>
+                <td>
+                  <div>
+                    <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[dx]">
+                      <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                    <input type="text" name="quant[dx]" class="form-control input-number" value="1">
+                    <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[dx]">
+                      <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th class="attr">IQ</th>
+                <td>
+                  <div>
+                    <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[iq]">
+                      <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                    <input type="text" name="quant[iq]" class="form-control input-number" value="1">
+                    <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[iq]">
+                      <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th class="attr">HT</th>
+                <td>
+                  <div>
+                    <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[ht]">
+                      <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                    <input type="text" name="quant[ht]" class="form-control input-number" value="1">
+                    <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[ht]">
+                      <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th class="attr">WILL</th>
+                <td>
+                  <div>
+                    <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[will]">
+                      <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                    <input type="text" name="quant[will]" class="form-control input-number" value="1">
+                    <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[will]">
+                      <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th class="attr">PER</th>
+                <td>
+                  <div>
+                    <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[per]">
+                      <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                    <input type="text" name="quant[per]" class="form-control input-number" value="1">
+                    <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[per]">
+                      <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-9">
+          <div class="row">
+            <div class="col-lg-3 defense">
+              <div class="col-lg-6">DR</div>
+              <div class="col-lg-6">2</div>
+            </div>
+            <div class="col-lg-3 defense">
+              <div class="col-lg-6">Dodge</div>
+              <div class="col-lg-6">5</div>
+            </div>
+            <div class="col-lg-3 defense">
+              <div class="col-lg-6">Parry</div>
+              <!-- TODO: Add in a counter for the number of parries done this turn and a zero button -->
+              <div class="col-lg-6">6</div>
+            </div>
+            <div class="col-lg-3 defense">
+              <div class="col-lg-6">Block</div>
+              <div class="col-lg-6">5</div>
+            </div>
+          </div>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Weapon</th>
+                <th>Attack</th>
+                <th>Damage</th>
+                <th>Range</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <!-- TODO: Make this button create a popup to add a new weapon to the table -->
+              <!-- TODO: Make the remove icon remove its row from the table -->
+              <td><button type="button" class="btn">Add Weapon</button></td>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td>Mace</td>
+                <td>16</td>
+                <td>2d6+2</td>
+                <td>1</td>
+                <td><textarea rows="1" cols="30" class="col-lg-12"></textarea></td>
+                <td><span class="glyphicon glyphicon-remove"></span></td>
+              </tr>
+              <tr>
+                <td>Longbow</td>
+                <td>15</td>
+                <td>1d6+2</td>
+                <td>60/180</td>
+                <td><textarea rows="1" cols="30" class="col-lg-12"></textarea></td>
+                <td><span class="glyphicon glyphicon-remove"></span></td>
+              </tr>
+              <tr>
+                <td>Teeth</td>
+                <td>15</td>
+                <td>1d6</td>
+                <td>1</td>
+                <td><textarea rows="1" cols="30" class="col-lg-12"></textarea></td>
+                <td><span class="glyphicon glyphicon-remove"></span></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
