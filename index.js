@@ -15,3 +15,11 @@ $('.btn-number').click(function(e){
         input.val(0);
     }
 });
+
+$('.dropdown-toggle').dropdown();
+
+$('#addWeaponAcceptBtn').click(function(e){
+  e.preventDefault();
+  //TODO: Save the values and add them to the weapons list
+  $('#addWeaponModal').modal('hide');
+});
